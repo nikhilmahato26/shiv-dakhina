@@ -9,7 +9,6 @@ import FoodExperience from '../components/packages/FoodExperience'
 import Includes from '../components/packages/Includes'
 import Pricing from '../components/pricing/Pricing'
 import WhyChooseUs from '../components/packages/WhyChooseUs'
-import Gallery from '../components/gallery/Gallery'
 import Testimonials from '../components/testimonials/Testimonials'
 import BookingCTA from '../components/contact/BookingCTA'
 
@@ -27,7 +26,6 @@ export default function Home() {
       <Includes />
       <Pricing />
       <WhyChooseUs />
-      <Gallery />
       <Testimonials />
       <BookingCTA />
     </>

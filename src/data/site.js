@@ -43,7 +43,6 @@ export const navLinks = [
   { label: 'Itinerary', href: '#itinerary' },
   { label: 'Places', href: '#places' },
   { label: 'Pricing', href: '#pricing' },
-  { label: 'Gallery', href: '#gallery' },
   { label: 'Contact', href: '#contact' },
 ]
 
