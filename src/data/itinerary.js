@@ -1,0 +1,57 @@
+export const itinerary = [
+  {
+    day: 'Day 1',
+    label: 'Friday',
+    accent: 'Departure',
+    items: [
+      { time: '8:00 PM', title: 'Reporting at Rourkela' },
+      { time: '8:30 PM', title: 'Welcome Tea & Snacks' },
+      { time: '9:00 PM', title: 'Departure' },
+      { time: '11:30 PM', title: 'Tea Break' },
+      { time: 'Overnight', title: 'Overnight Journey' },
+    ],
+  },
+  {
+    day: 'Day 2',
+    label: 'Saturday',
+    accent: 'Bhubaneswar',
+    items: [
+      { time: '5:30 AM', title: 'Reach Bhubaneswar' },
+      { time: '6:00 AM', title: 'Hotel Check-in & Freshen Up' },
+      { time: '8:00 AM', title: 'Breakfast' },
+      { time: '9:00 AM', title: 'Lingaraj Temple' },
+      { time: '10:30 AM', title: 'Dhauli Shanti Stupa' },
+      { time: '12:00 PM', title: 'Udayagiri & Khandagiri Caves' },
+      { time: '1:30 PM', title: 'Lunch (Pure Veg)' },
+      { time: '3:00 PM', title: 'Rest / Local Visit' },
+      { time: '6:00 PM', title: 'Local Market Visit' },
+      { time: '8:00 PM', title: 'Dinner (Pure Veg)' },
+      { time: '9:30 PM', title: 'Night Stay at Bhubaneswar' },
+    ],
+  },
+  {
+    day: 'Day 3',
+    label: 'Sunday',
+    accent: 'Konark & Puri',
+    items: [
+      { time: '7:00 AM', title: 'Breakfast' },
+      { time: '8:00 AM', title: 'Depart for Konark' },
+      { time: '10:00 AM', title: 'Konark Sun Temple' },
+      { time: '12:00 PM', title: 'Proceed to Puri' },
+      { time: '1:00 PM', title: 'Mahaprasad Lunch at Jagannath Temple' },
+      { time: '2:00 PM', title: 'Jagannath Temple Darshan' },
+      { time: '5:00 PM', title: 'Puri Beach & Shopping' },
+      { time: '7:30 PM', title: 'Dinner (Pure Veg)' },
+      { time: '9:00 PM', title: 'Return Journey to Rourkela' },
+    ],
+  },
+  {
+    day: 'Day 4',
+    label: 'Monday',
+    accent: 'Homecoming',
+    items: [
+      { time: '5:00 AM', title: 'Arrival at Rourkela' },
+      { time: '—', title: 'Tour Ends with Sweet Memories' },
+    ],
+  },
+]
