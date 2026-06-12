@@ -1,57 +1,27 @@
-export const itinerary = [
+import poster1 from '../assets/images/WhatsApp Image 2026-06-12 at 12.34.40.jpeg'
+import poster2 from '../assets/images/WhatsApp Image 2026-06-12 at 16.19.36.jpeg'
+import poster3 from '../assets/images/3.jpeg'
+
+export const posters = [
   {
-    day: 'Day 1',
-    label: 'Friday',
-    accent: 'Departure',
-    items: [
-      { time: '8:00 PM', title: 'Reporting at Rourkela' },
-      { time: '8:30 PM', title: 'Welcome Tea & Snacks' },
-      { time: '9:00 PM', title: 'Departure' },
-      { time: '11:30 PM', title: 'Tea Break' },
-      { time: 'Overnight', title: 'Overnight Journey' },
-    ],
+    id: 1,
+    title: 'Odisha Divine Tour',
+    subtitle: 'Comfortable SUV travel with premium Pure Veg meals.',
+    image: poster1,
   },
   {
-    day: 'Day 2',
-    label: 'Saturday',
-    accent: 'Bhubaneswar',
-    items: [
-      { time: '5:30 AM', title: 'Reach Bhubaneswar' },
-      { time: '6:00 AM', title: 'Hotel Check-in & Freshen Up' },
-      { time: '8:00 AM', title: 'Breakfast' },
-      { time: '9:00 AM', title: 'Lingaraj Temple' },
-      { time: '10:30 AM', title: 'Dhauli Shanti Stupa' },
-      { time: '12:00 PM', title: 'Udayagiri & Khandagiri Caves' },
-      { time: '1:30 PM', title: 'Lunch (Pure Veg)' },
-      { time: '3:00 PM', title: 'Rest / Local Visit' },
-      { time: '6:00 PM', title: 'Local Market Visit' },
-      { time: '8:00 PM', title: 'Dinner (Pure Veg)' },
-      { time: '9:30 PM', title: 'Night Stay at Bhubaneswar' },
-    ],
+    id: 2,
+    title: 'Divine Destinations',
+    subtitle: 'Visit Puri, Konark, and Bhubaneswar.',
+    image: poster2,
   },
   {
-    day: 'Day 3',
-    label: 'Sunday',
-    accent: 'Konark & Puri',
-    items: [
-      { time: '7:00 AM', title: 'Breakfast' },
-      { time: '8:00 AM', title: 'Depart for Konark' },
-      { time: '10:00 AM', title: 'Konark Sun Temple' },
-      { time: '12:00 PM', title: 'Proceed to Puri' },
-      { time: '1:00 PM', title: 'Mahaprasad Lunch at Jagannath Temple' },
-      { time: '2:00 PM', title: 'Jagannath Temple Darshan' },
-      { time: '5:00 PM', title: 'Puri Beach & Shopping' },
-      { time: '7:30 PM', title: 'Dinner (Pure Veg)' },
-      { time: '9:00 PM', title: 'Return Journey to Rourkela' },
-    ],
-  },
-  {
-    day: 'Day 4',
-    label: 'Monday',
-    accent: 'Homecoming',
-    items: [
-      { time: '5:00 AM', title: 'Arrival at Rourkela' },
-      { time: '—', title: 'Tour Ends with Sweet Memories' },
-    ],
+    id: 3,
+    title: 'Spiritual Tour Packages',
+    subtitle: 'Every Friday night departure from Rourkela.',
+    image: poster3,
   },
 ]
+
+// Keep itinerary array exported to prevent breakages elsewhere
+export const itinerary = []

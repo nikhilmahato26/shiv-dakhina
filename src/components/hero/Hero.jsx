@@ -27,13 +27,13 @@ export default function Hero() {
       <div className="relative section-pad mx-auto max-w-7xl min-h-screen grid lg:grid-cols-2 items-center gap-12 pt-32 pb-24 lg:py-0">
         {/* Left — typography */}
         <motion.div variants={stagger(0.14)} initial="hidden" animate="show">
-          <motion.span variants={fadeUp} className="eyebrow">
+          {/* <motion.span variants={fadeUp} className="eyebrow">
             <span className="h-px w-8 bg-gold-400/60" /> {site.tagline}
-          </motion.span>
+          </motion.span> */}
 
           <motion.h1
             variants={fadeUp}
-            className="mt-6 font-serif font-semibold text-white text-shadow-lg leading-[0.95]
+            className="mt-12 font-serif font-semibold text-white text-shadow-lg leading-[0.95]
                        text-5xl sm:text-6xl lg:text-7xl xl:text-[5.2rem]"
           >
             Odisha <span className="gold-text">Divine</span>
@@ -88,7 +88,7 @@ export default function Hero() {
           <div className="relative animate-float-slow">
             <div className="overflow-hidden rounded-[2.5rem] border border-gold-400/20 shadow-2xl">
               <img
-                src={ux('1582510003544-4d00b7f74220', 1100)}
+                src="https://thegreenfortune.com/wp-content/uploads/2025/09/download.jpeg"
                 alt="Sacred temple of Odisha"
                 className="h-[34rem] w-full object-cover"
               />

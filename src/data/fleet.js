@@ -7,7 +7,7 @@ export const fleet = [
     category: 'Premium SUV',
     tone: 'Black',
     description: 'Perfect for group travel.',
-    image: ux('1606664515524-ed2f786a0bd6', 1400),
+    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/190525/mahindra-scorpio-left-front-three-quarter0.jpeg?isig=0&wm=0",
     specs: [
       { label: 'Seating', value: '7 Seater' },
       { label: 'Luggage', value: 'Spacious' },
@@ -21,7 +21,7 @@ export const fleet = [
     category: 'Comfort SUV',
     tone: 'White',
     description: 'Comfortable and reliable. Ideal for family tours.',
-    image: ux('1503376780353-7e6692767b70', 1400),
+    image: "https://cdn-s3.autocarindia.com/legacy/cdni/ExtraImages/20210719123639_Mahindra_Bolero_Neo.jpg?w=728&q=75",
     specs: [
       { label: 'Seating', value: '7 Seater' },
       { label: 'Ride', value: 'Smooth & Stable' },
@@ -35,7 +35,7 @@ export const fleet = [
     category: 'Luxury Premium SUV',
     tone: 'Midnight Blue',
     description: 'Luxury premium SUV. Best for executive and luxury travel.',
-    image: ux('1552519507-da3b142c6e3d', 1400),
+    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/XUV700/10794/1762509966753/front-left-side-47.jpg",
     specs: [
       { label: 'Seating', value: '7 Seater' },
       { label: 'Comfort', value: 'Captain Seats' },
