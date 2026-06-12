@@ -17,12 +17,12 @@ export default function Itinerary() {
         {/* Header container with flex layout for title + custom navigation buttons on large screens */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
           <SectionHeading
-            eyebrow="Tour Posters"
+            eyebrow="Tour Packeges"
             title="Our Divine Tour Gallery"
             subtitle="Explore our exclusive tour packages and travel poster highlights designed for a premium spiritual experience."
             align="left"
           />
-          
+
           {/* Custom Navigation buttons (visible on all screens) */}
           <div className="flex items-center gap-3 mb-2">
             <button className="itinerary-swiper-prev flex h-12 w-12 items-center justify-center rounded-full border border-gold-400/30 bg-navy-950/40 text-gold-300 backdrop-blur-md transition-all duration-300 hover:bg-gold-400/20 hover:border-gold-400/70 hover:scale-105 active:scale-95 disabled:opacity-40 disabled:pointer-events-none">
