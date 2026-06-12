@@ -16,7 +16,7 @@ export default function Hero() {
       {/* Background temple at sunrise */}
       <div className="absolute inset-0">
         <img
-          src={ux('1599661046289-e31897846e41', 1920)}
+          src="https://s7ap1.scene7.com/is/image/incredibleindia/puri-beach-puri-odisha-1-attr-hero?qlt=82&ts=1726663799757"
           alt="Jagannath Temple at sunrise"
           className="h-full w-full object-cover"
         />
